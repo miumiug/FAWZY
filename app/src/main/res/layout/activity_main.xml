@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <include layout="@layout/layout_main_tool"></include>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize"
+        app:columnCount="3"
+        app:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/fiam_text_id"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:drawablePadding="@dimen/btn_top_5dp"
+            android:drawableTop="@drawable/ic_fkys"
+            android:gravity="center"
+            android:padding="@dimen/dimen_10"
+            android:text="FIAM"
+            android:textSize="@dimen/dimens_16sp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/zzrz_text_id"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:drawablePadding="@dimen/btn_top_5dp"
+            android:drawableTop="@drawable/ic_xkjh"
+            android:gravity="center"
+            android:padding="@dimen/dimen_10"
+            android:text="工作日志"
+            android:textSize="@dimen/dimens_16sp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/rwqb_text_id"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:drawablePadding="@dimen/btn_top_5dp"
+            android:drawableTop="@drawable/ic_bx"
+            android:gravity="center"
+            android:padding="@dimen/dimen_10"
+            android:text="任务清版"
+            android:textSize="@dimen/dimens_16sp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+
+    </android.support.v7.widget.GridLayout>
+
+</android.support.design.widget.CoordinatorLayout>

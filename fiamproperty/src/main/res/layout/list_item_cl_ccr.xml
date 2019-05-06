@@ -1,0 +1,131 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/btn_top_5dp"
+    android:background="@color/white"
+    android:foreground="?android:selectableItemBackground"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="@dimen/btn_top_5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/btn_top_5dp">
+
+            <TextView
+                android:id="@+id/person_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/person_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_16sp" />
+
+            <TextView
+                android:id="@+id/displayname1_text_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:hint="@string/have_notdata_hint"
+                android:textSize="@dimen/dimens_16sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_line"
+            android:background="@mipmap/line"></View>
+        <LinearLayout
+            android:id="@+id/bm_linearLayout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/btn_top_5dp">
+
+            <TextView
+                android:id="@+id/cudept_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trvcost1_text"
+                android:textColor="@color/grid_line"
+                android:textSize="@dimen/dimens_14sp" />
+
+            <TextView
+                android:id="@+id/trvcost1_text_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:hint="@string/have_notdata_hint"
+                android:textColor="@color/grid_line"
+                android:textSize="@dimen/dimens_14sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_line"
+            android:background="@mipmap/line"></View>
+        <LinearLayout
+            android:id="@+id/ks_linearLayout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/btn_top_5dp">
+
+            <TextView
+                android:id="@+id/ks_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trvcost2_text"
+                android:textColor="@color/grid_line"
+                android:textSize="@dimen/dimens_14sp" />
+
+            <TextView
+                android:id="@+id/trvcost2_text_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:hint="@string/have_notdata_hint"
+                android:textColor="@color/grid_line"
+                android:textSize="@dimen/dimens_14sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_line"
+            android:background="@mipmap/line"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/btn_top_5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bx_linecost_text"
+                android:textColor="@color/grid_line"
+                android:textSize="@dimen/dimens_14sp" />
+
+            <TextView
+                android:id="@+id/linecost_text_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:hint="@string/have_notdata_hint"
+                android:textColor="@color/grid_line"
+                android:textSize="@dimen/dimens_14sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

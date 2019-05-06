@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.hqxh.fiamproperty.ui.widget.PullLoadMoreRecyclerView
+        android:id="@+id/pullLoadMoreRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/have_not_data_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/have_not_data_txt"
+            android:textSize="@dimen/abc_action_bar_content_inset_material" />
+    </LinearLayout>
+
+</FrameLayout>

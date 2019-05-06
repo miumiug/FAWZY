@@ -1,0 +1,113 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'com.android.library'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'key0'
+            keyPassword 'hxqh@abc'
+            storeFile file('F:/app_project/FIAM/zy/FAWZY/key.jks')
+            storePassword 'hxqh@123'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    defaultConfig {
+        applicationId "cn.hxqh.fiam.zy"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 2
+        versionName "1.0.2"
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE : "default"]
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    /*
+    1. 更新说明:
+    发现FiAM APP新版本1.0.1。点击“确定”，下载。点击“取消”，取消下载，并继续运行。
+    2.versionCode 与 versionName中的小版本号一致
+     */
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+//        release {
+//            minifyEnabled false
+//            // Zipalign优化
+//            zipAlignEnabled true
+////            shrinkResources true // 移除无用的resource文件,必须和minifyEnabled 一起使用
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//        }
+//        release {
+//            // 不显示Log
+//            buildConfigField "boolean", "LOG_DEBUG", "false"
+//            //混淆
+//            minifyEnabled false
+//            //Zipalign优化
+//            zipAlignEnabled true
+//
+//            // 移除无用的resource文件
+////            shrinkResources true
+//            //加载默认混淆配置文件
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            //签名
+////            signingConfig signingConfigs.<span style="font-family: Arial, Helvetica, sans-serif;">assist</span>
+//
+//       }
+//        lintOptions {
+//
+//            abortOnError false
+//
+//            checkReleaseBuilds false
+//
+//// 防止在发布的时候出现因MissingTranslation导致Build Failed!
+//
+//            disable 'MissingTranslation'
+//
+//        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def file = output.outputFile
+            output.outputFile = new File(file.parent, "FiAM-app-" + defaultConfig.versionName + ".apk")
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://raw.githubusercontent.com/Pgyer/mvn_repo_pgyer/master" }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs '../worklogproperty/libs', 'libs'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile project(':fiamproperty')
+    compile project(':worklogproperty')
+    compile(name: 'lib.appgroup-1.0.4', ext: 'aar')
+    compile files('libs/joda-time-2.9.4.jar')
+    compile 'com.pgyersdk:sdk:2.8.1'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+}

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">工作日志</string>
+    <string name="zzqrr_text">工作确认人</string>
+
+    <string name="finished">Finished</string>
+    <string name="start">Start</string>
+    <string name="finish">Finish</string>
+
+
+    <!-- 登录界面 key-->
+    <string name="login_personId">login_personId</string>
+    <string name="login_displayName">login_displayName</string>
+    <string name="my_person_info">MY_PERSON_INFO</string>
+
+
+    <!--提示-->
+    <string name="load_more_text">正在加载...</string>
+    <string name="have_notdata_hint"></string>
+    <string name="all_data_hint">已加载出全部数据...</string>
+    <string name="have_not_data_txt">暂无相关数据</string>
+    <string name="unable_to_connect_to_server_login_failed">无法连接服务器,登录失败</string>
+
+
+    <!--schedule-->
+     <string name="schedule_input_you_do_thing">Input what to do</string> 
+    <string name="schedule_input_content_is_no_null">Content can\'t be empty.</string> 
+    <string name="schedule_event_detail_setting">Detail setting</string> 
+    <string name="schedule_title">Schedule title</string> 
+    <string name="schedule_show_finish_task">Show completed</string> 
+    <string name="schedule_hide_finish_task">Hide completed</string> 
+    <string name="schedule_delete_this_schedule">Delete the schedule?</string>
+
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="hour">Hour</string>
+     <string name="remarks">Reminders</string> 
+    <string name="please_input_desc">Input the reminders</string> 
+    <string name="date_format">yyyy-MM-dd HH:mm</string> 
+    <string name="date_format_no_time">%1$s-%2$s-%3$s</string> 
+    <string name="click_here_select_date">Click to choose time</string> 
+    <string name="click_here_select_location">Click to select location</string> 
+    <string name="click_input_location">Click to input location</string> 
+    <string name="add_location">Add spot</string> 
+    <string name="select_event_set">Choose events</string> 
+
+    <!--calendar-->
+    <string name="calendar_today">Today</string>
+    <string-array name="calendar_month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string name="calendar_day">%d day</string> 
+    <string name="calendar_year">%d-</string>
+
+    <!--我的日志-->
+    <string name="type_text">类型</string>
+    <string name="desction_text">工作内容</string>
+    <string name="projectid_text">项目号</string>
+    <string name="manhour_text">工时</string>
+    <string name="status_text">状态</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="personid_text">人员</string>
+    <string name="displayname_text">姓名</string>
+    <string name="cudept_text">部门</string>
+</resources>

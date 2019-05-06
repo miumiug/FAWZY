@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string-array name="home_text">
+        <item>待办任务</item>
+        <item>已办任务</item>
+        <item>出差申请</item>
+        <item>出门管理</item>
+        <item>采购申请</item>
+        <item>任务单</item>
+        <item>合同</item>
+        <item>付款验收</item>
+        <item>需款计划</item>
+        <item>报销</item>
+    </string-array>
+
+    <string-array name="po_text">
+        <item>技术采购申请</item>
+        <item>试制采购申请</item>
+        <item>物资采购申请</item>
+        <item>服务采购申请</item>
+        <item>外培采购申请</item>
+    </string-array>
+
+    <string-array name="rwd_text">
+        <item>试验任务单</item>
+        <item>试制任务单</item>
+        <item>物资领料单</item>
+        <item>调件任务单</item>
+        <item>燃油申请单</item>
+        <item>其它任务单</item>
+    </string-array>
+
+    <string-array name="calendar_month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+</resources>

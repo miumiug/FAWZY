@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relavtivelayout_btn_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:visibility="gone">
+
+    <Button
+        android:id="@+id/workflow_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_default"
+        android:text="@string/sp_btn_id"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimens_16sp" />
+
+
+</RelativeLayout>

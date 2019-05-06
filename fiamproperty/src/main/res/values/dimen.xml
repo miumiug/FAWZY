@@ -1,0 +1,43 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="btn_top_5dp">5dp</dimen>
+    <dimen name="btn_top_10dp">10dp</dimen>
+
+    <dimen name="dimens_20dp">20dp</dimen>
+    <dimen name="dimens_18_sp">18sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dp_22">22dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="sp_14">14dp</dimen>
+    <dimen name="dp_36">36dp</dimen>
+    <dimen name="dimens_20sp">20sp</dimen>
+    <dimen name="dimens_18sp">18sp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimens_16sp">16sp</dimen>
+    <dimen name="dimens_text">80dp</dimen>
+    <dimen name="dimens_line">0.5dp</dimen>
+    <dimen name="dimens_40dp">40dp</dimen>
+    <dimen name="dimen_2dp">2dp</dimen>
+    <dimen name="dimens_14sp">16sp</dimen>
+
+    <dimen name="dialogui_round_corner_radius">5dp</dimen>
+    <dimen name="dialogui_max_with">360dp</dimen>
+    <dimen name="dialogui_msg_txt_size">14sp</dimen>
+    <dimen name="action_bar_height">48dp</dimen>
+    <dimen name="space_30dp">30dp</dimen>
+    <dimen name="space_10dp">10dp</dimen>
+
+    <dimen name="schedule_radius_size">4dp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="schedule_hint_dash_line_width">1dp</dimen>
+    <dimen name="small_month_calendar_height">224dp</dimen>
+    <integer name="small_calendar_text_size">10</integer>
+    <dimen name="space_5dp">5dp</dimen>
+    <dimen name="week_bar_height">36dp</dimen>
+    <dimen name="month_calendar_height">288dp</dimen>
+    <dimen name="week_calendar_height">48dp</dimen>
+    <dimen name="small_week_bar_height">28dp</dimen>
+</resources>

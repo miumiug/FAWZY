@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FAWZY.iml" filepath="$PROJECT_DIR$/FAWZY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calendar/calendar.iml" filepath="$PROJECT_DIR$/calendar/calendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fiamproperty/fiamproperty.iml" filepath="$PROJECT_DIR$/fiamproperty/fiamproperty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taskversionproperty/taskversionproperty.iml" filepath="$PROJECT_DIR$/taskversionproperty/taskversionproperty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worklogproperty/worklogproperty.iml" filepath="$PROJECT_DIR$/worklogproperty/worklogproperty.iml" />
+    </modules>
+  </component>
+</project>

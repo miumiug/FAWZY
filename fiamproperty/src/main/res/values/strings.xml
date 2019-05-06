@@ -1,0 +1,520 @@
+<resources>
+
+    <string name="app_name">FiAM</string>
+    <string name="home_title">FiAM</string>
+    <string name="db_task_text">待办任务</string>
+    <string name="yb_task_text">已办任务</string>
+    <string name="ccsq_text">出差申请</string>
+    <string name="gncc_text">国内出差</string>
+    <string name="gwlx_text">出国立项</string>
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="quit">退出</string>
+
+    <!-- 弹出框 -->
+    <string name="dialog_info">消息</string>
+
+    <!-- 登录界面 key-->
+    <string name="login_personId">login_personId</string>
+    <string name="login_displayName">login_displayName</string>
+    <string name="login_phone">login_phone</string>
+    <string name="login_dept">login_dept</string>
+    <string name="my_person_info">MY_PERSON_INFO</string>
+
+
+    <!--提示-->
+    <string name="load_more_text">正在加载...</string>
+    <string name="have_notdata_hint"></string>
+    <string name="all_data_hint">已加载出全部数据...</string>
+    <string name="have_not_data_txt">暂无相关数据</string>
+    <string name="unable_to_connect_to_server_login_failed">无法连接服务器,登录失败</string>
+    <string name="check_projectid">输入的项目费用号必须已存在且已批准，请检查之后再次输入！</string>
+    <string name="check_PROJECTID">费用号不能为空</string>
+    <string name="check_DESCRIPTION">申请单描述不能为空</string>
+    <string name="check_PHONENUM">电话不能为空</string>
+
+
+
+    <!--标题-->
+    <string name="time24">父任务单</string>
+    <string name="cmgl_text">出门管理</string>
+    <string name="cgsq_text">采购申请</string>
+    <string name="jscgsq_text">技术采购申请</string>
+    <string name="szcgsq_text">试制采购申请</string>
+    <string name="wzcgsq_text">物资采购申请</string>
+    <string name="fwcgsq_text">服务采购申请</string>
+    <string name="wpcgsq_text">外培采购申请</string>
+    <string name="rwd_text">任务单</string>
+    <string name="syrwd_text">试验任务单</string>
+    <string name="wzlld_text">物资领料单</string>
+    <string name="djrwd_text">调件任务单</string>
+    <string name="szrwd_text">试制任务单</string>
+    <string name="rysqd_text">燃油申请单</string>
+    <string name="qtrwd_text">其它任务单</string>
+    <string name="ht_text">合同</string>
+    <string name="fkys_text">付款验收</string>
+    <string name="xkjh_text">需款计划</string>
+    <string name="bx_text">报销</string>
+    <string name="xmxs_text">项目写实</string>
+    <string name="expense_text">差旅报销</string>
+    <string name="byjbx_text">备用金报销</string>
+    <string name="jkd_text">借款单</string>
+    <string name="location_text">门岗1</string>
+    <string name="location2_text">门岗2</string>
+    <string name="type_text">类型</string>
+    <string name="schedulardate_text">计划出门日期</string>
+    <string name="displayname_text">申请人</string>
+    <string name="description1_text">名称</string>
+    <string name="enterdate_text">申请时间</string>
+    <string name="reason_text">理由</string>
+    <string name="grnum_text">申请单号</string>
+    <string name="phone_text">电话</string>
+    <string name="cudept_text">部门</string>
+    <string name="cucrew_text">科室</string>
+    <string name="wzcmxq_text">物资出门详情</string>
+    <string name="search_text">搜索</string>
+    <!--国内出差详情-->
+    <string name="gncc_detail_text">国内出差详情</string>
+    <string name="sqd_text">申请单</string>
+    <string name="have_not_data">""</string>
+    <string name="projectid_text">费用号</string>
+    <string name="worktype_text">类型</string>
+    <string name="PARENT_text">父任务单</string>
+    <string name="PARENTDEsc_text">父任务单描述</string>
+    <string name="status_text">状态</string>
+    <string name="time_text">时间</string>
+    <string name="udaddress1_text">目的地</string>
+    <string name="udtransport3_text">乘坐飞机</string>
+    <string name="udremark1_text">出差原因</string>
+    <string name="udtrvcost1_text">差旅费用</string>
+    <string name="udtrvcost2_text">其它费用</string>
+    <string name="udesttotalcost_text">出差费用预算</string>
+    <string name="ccr_text">出差人</string>
+    <string name="stroke_text">行程明细行</string>
+    <string name="time_position_tool">时间、地点、交通工具</string>
+    <string name="jbxx_text">其它信息</string>
+    <string name="udtrv1_text">团队负责人</string>
+    <string name="rdchead_text">分管领导</string>
+    <string name="sqr_text">申请人</string>
+    <string name="reportdate_text">申请日期</string>
+    <string name="spjl_text">审批记录</string>
+    <string name="sp_btn_id">审批</string>
+    <string name="displaynamee_text">人员</string>
+    <string name="spr_text">审批人</string>
+    <string name="node_text">标题</string>
+    <string name="trnsdate_text">审批日期</string>
+    <string name="memo_text">审批意见</string>
+
+    <!--出国立项-->
+    <string name="cg_udremark1_text">出国目的</string>
+    <string name="ccsj_text">出差时间</string>
+    <string name="udtargstartdate2_text">出国时间</string>
+    <string name="udremark3_text">出访国家或地区</string>
+    <string name="udestdur3_text">停留天数</string>
+    <string name="lcgrymd_text">拟出国人员名单</string>
+    <string name="cglxxq_text">出国立项详情</string>
+    <string name="memo_hint_text">请输入审批意见</string>
+    <string name="spsb_text">审批失败</string>
+    <string name="phonenum_text">电话</string>
+
+    <!--试验任务单-->
+    <string name="udtodesc_text">任务单描述</string>
+    <string name="udtotype2_text">试验类型</string>
+    <string name="projectdesc_text">项目名称</string>
+    <string name="pm_text">项目经理</string>
+    <string name="reportedbyname_text">提单人</string>
+    <string name="reportdate1_text">提单日期</string>
+    <string name="udtargstartdate_text">建议完成时间</string>
+    <string name="udtargcompdate_text">要求完成时间</string>
+    <string name="actfinish_text">任务完成时间</string>
+    <string name="supervisor_text">子项目经理</string>
+    <string name="cudept1_text">执行部门</string>
+    <string name="cucrew1_text">执行科室</string>
+    <string name="ownername_text">执行人</string>
+    <string name="udtoquestion_text">问题描述</string>
+    <string name="udremark2_text">试验目的</string>
+    <string name="udremark21_text">样品名称</string>
+    <string name="udqty1_text">样品数量</string>
+    <string name="udremark31_text">试验.项目.标准方法</string>
+    <string name="udremark4_text">车辆及总成基本信息</string>
+    <string name="syrwdxq_text">试验任务单详情</string>
+    <string name="num_text">编号</string>
+    <string name="mc_text">名称</string>
+    <string name="wzmx_text">物资明细</string>
+    <string name="zcmx_text">整车明细</string>
+    <string name="grlin1_text">规格型号</string>
+    <string name="qty_text">数量</string>
+    <string name="measureunitid_text">计量单位</string>
+    <string name="transdate_text">审批时间</string>
+    <string name="displayname1_text">审批人</string>
+    <string name="description_text">标题</string>
+    <string name="ry_text">人员</string>
+
+    <string name="must_have_data">"必填"</string>
+
+    <!--personrelation-->
+    <string name="personrelation_PERSONID">人员</string>
+    <string name="personrelation_DISPLAYNAME">姓名</string>
+    <string name="personrelation_UDPERSONTYPE">人员类别</string>
+    <string name="personrelation_CUDEPT">部门</string>
+    <string name="personrelation_PLACEA">出发地</string>
+    <string name="personrelation_PLACEZ">目的地</string>
+    <string name="personrelation_STARTDATE">出发日期</string>
+    <string name="personrelation_ENDDATE">到达日期</string>
+    <string name="personrelation_TRANSPORT">交通工具</string>
+    <string name="personrelation_TRVCOST3">交通费</string>
+    <string name="personrelation_TRVCOST4">住宿费</string>
+    <string name="personrelation_TRVCOST9">其它费用</string>
+    <string name="personrelation_TRVCOST2">补助费用</string>
+    <string name="personrelation_LINECOST">预计总费用</string>
+    <string name="personrelation_ISONLINE">已发差旅平台？</string>
+    <string name="personrelation_IFMESSAGE">接口消息</string>
+
+    <!--试制任务单-->
+    <string name="udtotype3_text">试制类型</string>
+    <string name="cuquantity_text">试制数量</string>
+    <string name="udszdate1_text">任务到达时间</string>
+    <string name="sz_owner_text">子项目负责人</string>
+    <string name="szrwdxq_text">试制任务单详情</string>
+    <string name="udpaythisyear_text">本年度结算</string>
+
+
+    <!--物资领料单-->
+    <string name="wzlld_title">物资领料单详情</string>
+    <string name="djrwdxq_text">调件任务单详情</string>
+    <string name="lbjmc_text">零部件名称</string>
+    <string name="wpt5_text">图号</string>
+    <string name="orderunit_text">计量单位</string>
+    <string name="storeloc_text">仓库</string>
+    <string name="estmatcost_text">总费用</string>
+    <string name="js_schedfinish_text">结算完成时间</string>
+    <string name="mxxx_text">明细信息</string>
+    <string name="udadditional_text">是否补录</string>
+    <string name="udtooil1_text">燃油类型及标号</string>
+    <string name="sq_udqty1_text">申请数量</string>
+    <string name="cuunit_text">单位</string>
+    <string name="rysqdxq_text">燃油申请单详情</string>
+    <string name="qtrwdxq_text">其它任务单</string>
+
+    <!--合同-->
+    <string name="contractnum_text">合同编号</string>
+    <string name="udcontractnum_text">国外合同号</string>
+    <string name="ht_name_text">合同名称</string>
+    <string name="udclass_text">合同类别</string>
+    <string name="revisionnum_text">版本</string>
+    <string name="udtype2_text">开口/闭口</string>
+    <string name="udcontent_text">主要内容(摘要)</string>
+    <string name="uddirection_text">收付方向</string>
+    <string name="udpayterm1_text">支付方式</string>
+    <string name="udiprowner_text">知识产权归属</string>
+    <string name="totalbasecost_text">合同金额(人民币)</string>
+    <string name="cutotalcost_text">外币合同额</string>
+    <string name="cucurrency_text">外币币种</string>
+    <string name="owner_text">合同责任人</string>
+    <string name="udownerdept_text">责任部门</string>
+    <string name="udownercrew_text">责任科室</string>
+    <string name="tc_displayname_text">提出人</string>
+    <string name="signdate_text">签订日期</string>
+    <string name="startdate_text">开始日期</string>
+    <string name="enddate_text">结束日期</string>
+    <string name="udrecorddate_text">提出日期</string>
+    <string name="udrequestdept_text">提出部门</string>
+    <string name="udrequestcrew_text">提出科室</string>
+    <string name="fkjh_text">付款计划</string>
+    <string name="wd_text">文档</string>
+    <string name="hth_text">合同行</string>
+    <string name="ms_text">描述</string>
+    <string name="create_owner_text">创建人</string>
+    <string name="createdate_text">创建日期</string>
+    <string name="yl_text">查看</string>
+    <string name="htxq_text">合同详情</string>
+    <string name="conpaylinenum_text">付款阶段</string>
+    <string name="term_text">付款条件</string>
+    <string name="duedate_text">付款日期</string>
+    <string name="linecost_text">付款金额</string>
+    <string name="paymentpercent_text">付款比例</string>
+    <string name="isadvance_text">预付款</string>
+    <string name="contractline_text">行</string>
+    <string name="nr_description_text">内容</string>
+    <string name="unitcost_text">单价</string>
+    <string name="linecost_text1">总价</string>
+    <string name="samplenum_text">样车编号</string>
+    <string name="udmodel_text">型号</string>
+    <string name="udlicensenum_text">品牌</string>
+    <string name="udvehicletype_text">车辆类型</string>
+    <string name="udvehicletype2_text">样车来源</string>
+    <string name="udchassisnum_text">底盘号</string>
+
+    <!--差旅报销-->
+    <string name="udsznum_text">试制编号</string>
+    <string name="expensenum_text">报销单</string>
+    <string name="description_bx_text">报销事由</string>
+    <string name="wftype_text">类别</string>
+    <string name="wonum2_text">出差申请</string>
+    <string name="projectid_xm_text">项目预算</string>
+    <string name="totalcost_text">报销金额</string>
+    <string name="bocost_text">借款金额</string>
+    <string name="enterby_text">报销人</string>
+    <string name="zhi_text">至</string>
+    <string name="actdays_text">出差天数</string>
+    <string name="bzmx_text">补助明细</string>
+    <string name="jtmx_text">交通费明细</string>
+    <string name="clbxdxq_text">差旅报销单详情</string>
+    <string name="person_text">人员</string>
+    <string name="trvcost1_text">票据金额</string>
+    <string name="trvcost2_text">补助金额</string>
+    <string name="bx_linecost_text">报销金额</string>
+    <string name="h_text">行</string>
+    <string name="standardcost_text">补助标准</string>
+    <string name="days_text">人天</string>
+    <string name="bz_linecost_text">补助金额</string>
+    <string name="cl_time_text">时间</string>
+    <string name="dd_text">地点</string>
+    <string name="transport_text">交通工具</string>
+    <string name="je_text">金额</string>
+    <string name="bodesc_text">借款事由</string>
+    <string name="boenterdate_text">借款时间</string>
+    <string name="bototalcost_text">借款金额</string>
+    <string name="paycheckcost_text">验收金额</string>
+    <string name="by_enterdate_text">报销日期</string>
+    <string name="contractvendor_text">供应商</string>
+    <string name="payvendor_text">收款单位</string>
+    <string name="address1_text">收款单位地址</string>
+    <string name="bank_text">开户行</string>
+    <string name="bankaccount_text">账号</string>
+    <string name="fkysd_text">付款验收单</string>
+    <string name="bxmx_text">报销明细</string>
+    <string name="paychecknum_text">验收单</string>
+    <string name="by_totalcost_text">含税金额</string>
+    <string name="tax_text">税额</string>
+    <string name="byjbxmx_text">备用金报销明细</string>
+    <string name="invoicedate_text">发票日期</string>
+    <string name="djmc_text">单据名称</string>
+    <string name="remark_text">报销事项说明</string>
+
+
+    <!--备用金报销-->
+
+
+    <string name="prnum_text">申请单号</string>
+    <string name="udpcowner_text">参加人</string>
+    <string name="udremarks_text">培训班编号</string>
+    <string name="udremarks1_text">培训内容</string>
+    <string name="udremarks4_text">地点及单位</string>
+    <string name="linecost1_text">培训预算</string>
+    <string name="udremark_text">从事本专业岗位工作及承担项目工作</string>
+    <string name="udremarks2_text">本专业技术现状,培训理由及目的</string>
+    <string name="date_text">日期</string>
+    <string name="wppaydetails_text">外培采购详情</string>
+    <string name="wpcgsqxq_text">外培采购申请详情</string>
+    <string name="udlxtype_text">立项类型</string>
+    <string name="udremarka_text">立项原因</string>
+    <string name="projectdes1_text">项目内容</string>
+    <string name="pr6_text">总预算(人民币)</string>
+    <string name="wb_text">总预算(外币)</string>
+    <string name="udremark6_text">提升内容</string>
+    <string name="udremark5_text">适用范围</string>
+    <string name="wonum_text">任务单号</string>
+    <string name="udremarks3_text">项目预期目标</string>
+    <string name="document_text">文档</string>
+    <string name="fwcgxq_text">服务采购详情</string>
+    <string name="payplannum_text">计划单</string>
+    <string name="month_text">年月</string>
+    <string name="type1_text">需款类型</string>
+
+    <!--借款单-->
+    <string name="bonum_text">借款单</string>
+    <string name="jk_description_text">借款事由</string>
+    <string name="jk_type_text">借款类型</string>
+    <string name="applycost_text">申请金额</string>
+    <string name="jk_enterby_text">借款人</string>
+    <string name="jk_enterdate_text">借款时间</string>
+    <string name="jy_bank_text">开户银行</string>
+    <string name="jy_bankaccount_text">银行账号</string>
+    <string name="jkdxq_text">借款单详情</string>
+    <string name="wftype1_text">报销类别</string>
+    <string name="totalcost1_text">需款金额</string>
+    <string name="contractnum1_text">合同</string>
+    <string name="description2_text">合同描述</string>
+    <string name="contractrev_text">合同版本</string>
+    <string name="phase_text">付款阶段</string>
+    <string name="vendor_text">供应商</string>
+    <string name="description3_text">出差描述</string>
+    <string name="memo1_text">备注</string>
+    <string name="isbopayplan_text">借款需款？</string>
+    <string name="isinternal_text">厂内需款？</string>
+    <string name="xkxm_text">需款项目</string>
+    <string name="projectid1_text">费用号</string>
+    <string name="description12_text">项目名称</string>
+    <string name="description13_text">需款内容</string>
+    <string name="linecost2_text">金额</string>
+
+    <!--技术采购申请-->
+    <string name="lx_udremark1_text">立项原因</string>
+    <string name="js_udremark3_text">项目预期目标</string>
+    <string name="js_udremark6_text">通过本次采购自身能力提升内容</string>
+    <string name="reqbyphone_text">申请人电话</string>
+    <string name="qzgys_text">潜在供应商</string>
+    <string name="jscgxq_text">技术采购详情</string>
+    <string name="bz_text">备注</string>
+    <string name="sz_pr6_text">总预算(外币)</string>
+    <string name="udcurrencycode_text">货币</string>
+    <string name="sqmx_text">申请明细</string>
+    <string name="szcgsqxq_text">试制采购申请详情</string>
+    <string name="sz_udmodel_text">图号</string>
+    <string name="uddate1_text">合同履约开始日期</string>
+    <string name="wz_udremark1_text">申请原因</string>
+    <string name="wz_uddate1_text">建议完成时间</string>
+    <string name="uddate3_text">结算完成时间</string>
+    <string name="newvendor_text">指定的供应商</string>
+    <string name="contact_text">联系人</string>
+    <string name="wzcgsqxq_text">物资采购申请详情</string>
+    <string name="ys_totalcost_text">验收金额</string>
+    <string name="isfinalcheck_text">最后一次验收</string>
+    <string name="phase1_text">验收阶段</string>
+    <string name="checke_text">验收人</string>
+    <string name="checkdate_text">验收时间</string>
+    <string name="ys_cudept_text">提单部门</string>
+    <string name="ys_cucrew_text">提单科室</string>
+    <string name="pc1_text">交付物和验收内容</string>
+    <string name="pc2_text">验收结论/意见</string>
+    <string name="ysmx_text">验收明细</string>
+
+    <string name="fkysmx1_text">付款验收明细</string>
+    <string name="modelnum2_text">型号规格</string>
+    <string name="unitcost2_text">不含税单价</string>
+    <string name="linecost3_text">不含税总价</string>
+    <string name="ysxq_text">验收详情</string>
+    <string name="have_not_appove_hint">此模块暂不支持移动审批，请在电脑端进行处理。</string>
+    <string name="have_not_appove_hint2">暂不支持移动审批，请在电脑端进行处理。</string>
+    <string name="ycdescription_text">样车编号</string>
+    <string name="xh_grlin1_text">型号</string>
+    <string name="grlin3_text">品牌</string>
+    <string name="grlin4_text">车辆类别</string>
+    <string name="udtrain1_text">岗级</string>
+    <string name="loading_hint">加载中...</string>
+    <string name="udtrv2_text">出国团组名称</string>
+    <string name="cg_udremark2_text">邀请接待单位</string>
+    <string name="cg_udremark4_text">出国工作任务</string>
+    <string name="udsummary6_text">预期成果</string>
+    <string name="udksremark_text">途经国家或地区</string>
+    <string name="cg_udaddress1_text">拟出访路线</string>
+
+
+    <string name="linenum_text">序号</string>
+    <string name="filetype_text">资料类型</string>
+    <string name="zrr_text">责任人</string>
+    <string name="kbfilelist_text">出国人员知识积累拟交付资料清单</string>
+    <string name="xm_text">姓名</string>
+    <string name="fj_text">附件</string>
+
+    <string name="zxkjh_text">子需款计划</string>
+    <string name="type2_text">需款类型</string>
+    <string name="vendor1_text">供应商名称</string>
+    <string name="enterbyname_text">出差申请</string>
+    <string name="isbopayplan1_text">借款需款</string>
+    <string name="taskid_text">任务</string>
+    <string name="tasktypedesc_text">任务类型</string>
+    <string name="fcyear_text">预算年度</string>
+    <string name="yxmx_text">预算明细</string>
+    <string name="xmys_text">项目预算</string>
+    <string name="sz_udesttotalcost_text">费用概算合计</string>
+    <string name="udmeetingnum_text">会议编号</string>
+    <string name="udmeetingname_text">会议名称</string>
+    <string name="payedcost_text">已付金额</string>
+    <string name="contractname_text">合同名称</string>
+    <string name="hs_unitcost2_text">含税单价</string>
+    <string name="hs_linecost2_text">含税总价</string>
+    <string name="fyzj_text">费用总计</string>
+    <string name="fjf_text">附加费</string>
+    <string name="prdesc_text">采购申请描述</string>
+    <string name="pegiontype_text">地区类别</string>
+    <string name="persontype_text">人员类别</string>
+    <string name="stayname_text">住宿人员</string>
+    <string name="startdate1_text">入住日期</string>
+    <string name="enddate1_text">离开日期</string>
+    <string name="staydays_text">补助天数</string>
+    <string name="linecost4_text">补助总额</string>
+    <string name="standard_text">补助标准</string>
+    <string name="place_text">地点</string>
+
+    <string name="calendar_year">%d-</string>
+
+    <string name="text_first_content">一级工作内容</string>
+    <string name="text_second_content">二级工作内容</string>
+    <string name="text_num">总成/零部件编号</string>
+    <string name="text_name">总成/零部件名称</string>
+    <string name="text_thing_name">交付物名称</string>
+    <string name="text_car_num">车机型设计顺序号:</string>
+    <string name="text_start_time">计划开始时间</string>
+    <string name="text_finish_time">计划完成时间</string>
+    <string name="text_content1">工作内容1</string>
+    <string name="text_time1">投入工时1</string>
+    <string name="text_content2">工作内容2</string>
+    <string name="text_time2">投入工时2</string>
+    <string name="text_content3">工作内容3</string>
+    <string name="text_time3">投入工时3</string>
+    <string name="text_content4">工作内容4</string>
+    <string name="text_time4">投入工时4</string>
+    <string name="text_content5">工作内容5</string>
+    <string name="text_time5">投入工时5</string>
+
+    <string name="text_PERSONID">人员不能为空</string>
+    <string name="text_PLACEA">出发地不能为空</string>
+    <string name="text_PLACEZ">目的地不能为空</string>
+    <string name="text_STARTDATE">出发时间不能为空</string>
+    <string name="text_ENDDATE">到达时间不能为空</string>
+    <string name="text_TRANSPORT">到达时间不能为空</string>
+    <string name="check_data">起始日期不能大于结束日期</string>
+
+    <string name="GnWorkorder_UDTARGSTARTDATE">开始时间</string>
+    <string name="GnWorkorder_UDTARGCOMPDATE">结束时间</string>
+    <string name="GnWorkorder_UDADDRESS1">目的地</string>
+
+    <string name="GnWorkorder_UDREMARK1">出差原因</string>
+    <string name="GnWorkorder_money">金额</string>
+
+    <string name="GnWorkorder_UDTRVCOST1">差旅费用</string>
+    <string name="GnWorkorder_UDTRVCOST3">其他费用</string>
+    <string name="GnWorkorder_UDTRVCOST2">会议费用</string>
+    <string name="GnWorkorder_UDHASMEETING">有会议费？</string>
+    <string name="GnWorkorder_UDESTTOTALCOST">出差费用预计</string>
+
+    <string name="GnWorkorder_Person_in_charge">负责人</string>
+    <string name="GnWorkorder_UDTRV1">团队负责人编号</string>
+    <string name="GnWorkorder_TEAMLEADER">团队负责人姓名</string>
+    <string name="GnWorkorder_RDCHEAD">院分管领导编号</string>
+    <string name="GnWorkorder_RDCHEADNAME">院分管领导姓名</string>
+
+    <string name="GnWorkorder_time_position_tool_red">起点至目的地距离在1100公里以内不允许乘坐飞机，否则不予报销。</string>
+    <string name="GnWorkorder_money_red">差旅费用包括交通费和住宿费；其它费用包含补助费用。</string>
+    <string name="GnWorkorder_Person_in_charge_red">“团队负责人”为出差团队的主要负责人或院领导指定的人员，默认为团队中职务最高的人。</string>
+
+    <string name="GnWorkorder_Remarks">备注</string>
+    <string name="GnWorkorder_UDREMARK2">备注</string>
+
+    <string name="GnWorkorder_applicant">申请人</string>
+    <string name="GnWorkorder_REPORTEDBYNAME">申请人姓名</string>
+    <string name="GnWorkorder_CUDEPT">申请人部门</string>
+    <string name="GnWorkorder_REPORTDATE">申请日期</string>
+    <string name="GnWorkorder_PHONENUM">电话</string>
+
+    <string name="FCTASKRELATION_TASKID">任务编号</string>
+    <string name="FCTASKRELATION_DESCRIPTION">任务描述</string>
+    <string name="FCTASKRELATION_TASKTYPEDESC">任务类型</string>
+    <string name="FCTASKRELATION_FCYEAR">预算年度</string>
+
+    <string name="Workorder_worktype">类型不能为空</string>
+    <string name="Workorder_UDTARGSTARTDATE">开始时间不能为空</string>
+    <string name="Workorder_UDTARGCOMPDATE">结束时间不能为空</string>
+    <string name="Workorder_UDADDRESS1">目的地不能为空</string>
+    <string name="Workorder_UDREMARK1">出差原因不能为空</string>
+    <string name="Workorder_UDTRV1">团队负责人编号不能为空</string>
+    <string name="Workorder_TEAMLEADER">团队负责人姓名不能为空</string>
+    <string name="Workorder_RDCHEAD">院分管领导编号不能为空</string>
+    <string name="Workorder_RDCHEADNAME">院分管领导姓名不能为空</string>
+
+    <string name="Travel_Application">出差申请</string>
+    <string name="first_option">请先保存单据</string>
+</resources>

@@ -1,0 +1,130 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/btn_top_5dp"
+    android:background="@color/white"
+    android:foreground="?android:selectableItemBackground"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="@dimen/btn_top_5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/btn_top_5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/samplenum_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_16sp" />
+
+
+            <TextView
+                android:id="@+id/samplenum_text_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:hint="@string/have_not_data"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_16sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_line"
+            android:background="@mipmap/line"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/btn_top_5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/udmodel_text"
+                android:textColor="@color/wordcolor"
+                android:textSize="@dimen/dimens_16sp" />
+
+            <TextView
+                android:id="@+id/udmodel_text_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:hint="@string/have_notdata_hint"
+                android:textColor="@color/wordcolor"
+                android:textSize="@dimen/dimens_16sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_line"
+            android:background="@mipmap/line"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/btn_top_5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/udlicensenum_text"
+                android:textColor="@color/wordcolor"
+                android:textSize="@dimen/dimens_16sp" />
+
+            <TextView
+                android:id="@+id/udlicensenum_text_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:hint="@string/have_notdata_hint"
+                android:textSize="@dimen/dimens_16sp"
+                android:textColor="@color/wordcolor" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_line"
+            android:background="@mipmap/line"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/btn_top_5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/udvehicletype_text"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/dimens_16sp" />
+
+            <TextView
+                android:id="@+id/udvehicletype_text_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:hint="@string/have_notdata_hint"
+                android:textSize="@dimen/dimens_16sp"
+                android:textColor="@color/light_black" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

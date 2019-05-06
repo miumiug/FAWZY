@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_top_id"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimens_50dp"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:id="@+id/back_text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/title_text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="工作确认人"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+    <ImageView
+        android:id="@+id/search_imageView_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/dimens_10dp"
+        android:src="@drawable/ic_search" />
+
+</RelativeLayout>

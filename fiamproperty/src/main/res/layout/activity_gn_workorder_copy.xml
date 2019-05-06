@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <include layout="@layout/layout_toolbar"></include>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <ScrollView
+            android:id="@+id/scrollView_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_80dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/btn_top_10dp"
+                            android:gravity="center"
+                            android:text="@string/sqd_text"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+
+                        <TextView
+                            android:id="@+id/WONUM"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:hint="@string/have_not_data"
+                            android:padding="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_80dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/btn_top_10dp"
+                            android:gravity="center"
+                            android:text="@string/ms_text"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+
+                        <EditText
+                            android:id="@+id/DESCRIPTION"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/projectid_text"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+                        <EditText
+                            android:id="@+id/PROJECTID"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:hint="@string/must_have_data"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/description12_text"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+                        <EditText
+                            android:id="@+id/FINCNTRLDESC"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:hint="@string/have_not_data"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/worktype_text"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+                        <TextView
+                            android:id="@+id/WORKTYPE"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/PARENT_text"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+                        <TextView
+                            android:id="@+id/PARENT"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:hint="@string/have_not_data"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/PARENTDEsc_text"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+                        <TextView
+                            android:id="@+id/PARENTDESC"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:hint="@string/have_not_data"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/status_text"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+                        <TextView
+                            android:id="@+id/STATUSDESC"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:hint="@string/have_not_data"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:textColor="@color/text_back_color_2"
+                            android:textSize="@dimen/dimens_16sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_dark_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical"
+                        android:text="@string/stroke_text"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimens_16sp" />
+
+                    <ImageView
+                        android:id="@+id/ccr_imageview_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_more_horiz_black" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_dark_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical"
+                        android:text="@string/time_position_tool"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimens_16sp" />
+
+                    <ImageView
+                        android:id="@+id/time_position_tool"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_keyboard_arrow_down_black" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/line_id1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_time_position_tool_red"
+                            android:textColor="@color/red"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_UDTARGSTARTDATE"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/UDTARGSTARTDATE"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:hint="@string/must_have_data"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_UDTARGCOMPDATE"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+                        <TextView
+                            android:id="@+id/UDTARGCOMPDATE"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:hint="@string/must_have_data"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_UDADDRESS1"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+                        <EditText
+                            android:id="@+id/UDADDRESS1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:hint="@string/must_have_data"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_dark_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical"
+                        android:text="@string/GnWorkorder_UDREMARK1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimens_16sp" />
+
+                    <ImageView
+                        android:id="@+id/UDREMARK1_relative"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_keyboard_arrow_down_black" />
+                </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/line_id2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@mipmap/line"></View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_dark_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="@dimen/dimens_text"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/dimen_10"
+                        android:gravity="center"
+                        android:text="@string/GnWorkorder_UDREMARK1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimens_16sp"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/UDREMARK1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/btn_top_5dp"
+                        android:hint="@string/must_have_data"
+                        android:textColor="@color/light_black"
+                        android:textSize="@dimen/dimens_16sp" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@mipmap/line"></View>
+
+            </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_dark_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical"
+                        android:text="@string/GnWorkorder_money"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimens_16sp" />
+
+                    <ImageView
+                        android:id="@+id/money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_keyboard_arrow_down_black" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/line_id3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_money_red"
+                            android:textColor="@color/red"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_UDTRVCOST1"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/UDTRVCOST1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+
+                    </LinearLayout>
+
+                    <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_UDTRVCOST3"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                        <EditText
+                            android:id="@+id/UDTRVCOST3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_UDTRVCOST2"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                        <EditText
+                            android:id="@+id/UDTRVCOST2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_UDHASMEETING"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white">
+
+                            <CheckBox
+                                android:id="@+id/UDHASMEETING"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:button="@drawable/checkbox_bj"
+                                 />
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_UDESTTOTALCOST"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                        <EditText
+                            android:id="@+id/UDESTTOTALCOST"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_dark_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical"
+                        android:text="@string/GnWorkorder_Person_in_charge"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimens_16sp" />
+
+                    <ImageView
+                        android:id="@+id/Person_in_charge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_keyboard_arrow_down_black" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/line_id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_Person_in_charge_red"
+                            android:textColor="@color/red"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_UDTRV1"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                        <EditText
+                            android:id="@+id/UDTRV1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:hint="@string/must_have_data"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_TEAMLEADER"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                        <EditText
+                            android:id="@+id/TEAMLEADER"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:hint="@string/must_have_data"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_RDCHEAD"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                        <EditText
+                            android:id="@+id/RDCHEAD"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:hint="@string/must_have_data"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_RDCHEADNAME"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                        <EditText
+                            android:id="@+id/RDCHEADNAME"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:hint="@string/must_have_data"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_dark_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical"
+                        android:text="@string/GnWorkorder_Remarks"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimens_16sp" />
+
+                    <ImageView
+                        android:id="@+id/Remarks"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_keyboard_arrow_down_black" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/line_id6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_UDREMARK2"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                        <EditText
+                            android:id="@+id/UDREMARK2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_dark_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical"
+                        android:text="@string/GnWorkorder_applicant"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimens_16sp" />
+
+                    <ImageView
+                        android:id="@+id/applicant"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_keyboard_arrow_down_black" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/line_id7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_REPORTEDBYNAME"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                        <EditText
+                            android:id="@+id/REPORTEDBYNAME"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_CUDEPT"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                        <EditText
+                            android:id="@+id/CUDEPT"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_REPORTDATE"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/REPORTDATE"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background_dark_gray"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/dimens_text"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dimen_10"
+                            android:gravity="center"
+                            android:text="@string/GnWorkorder_PHONENUM"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens_16sp"
+
+                            />
+
+                        <EditText
+                            android:id="@+id/PHONENUM"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/btn_top_5dp"
+                            android:hint="@string/must_have_data"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/dimens_16sp" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@mipmap/line"></View>
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/line" />
+
+                <!--<RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_dark_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/fj_text"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimens_16sp" />
+
+                    <ImageView
+                        android:id="@+id/doclinks_imageview_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_more_horiz_black" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/line" />-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_dark_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/yxmx_text"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimens_16sp" />
+
+                    <ImageView
+                        android:id="@+id/yxmx_imageview_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_more_horiz_black" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/line" />
+
+                <!--<RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_dark_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/spjl_text"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimens_16sp" />
+
+                    <ImageView
+                        android:id="@+id/sqjl_imageview_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_more_horiz_black" />
+
+                </RelativeLayout>-->
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <include layout="@layout/appove_button"></include>
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
+

@@ -1,0 +1,176 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/btn_top_5dp"
+    android:background="@color/white"
+    android:foreground="?android:selectableItemBackground"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="@dimen/btn_top_5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/btn_top_5dp">
+
+            <TextView
+                android:id="@+id/displayname_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/conpaylinenum_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_16sp" />
+
+            <TextView
+                android:id="@+id/conpaylinenum_text_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:hint="@string/have_notdata_hint"
+                android:textSize="@dimen/dimens_16sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_line"
+            android:background="@mipmap/line"></View>
+
+        <LinearLayout
+            android:id="@+id/bm_linearLayout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/btn_top_5dp">
+
+            <TextView
+                android:id="@+id/cudept_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/term_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_16sp" />
+
+            <TextView
+                android:id="@+id/term_text_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:hint="@string/have_notdata_hint"
+                android:textSize="@dimen/dimens_16sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_line"
+            android:background="@mipmap/line"></View>
+
+        <LinearLayout
+            android:id="@+id/ks_linearLayout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/btn_top_5dp">
+
+
+            <TextView
+                android:id="@+id/ks_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/duedate_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_16sp" />
+
+            <TextView
+                android:id="@+id/duedate_text_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:layout_weight="1"
+                android:hint="@string/have_notdata_hint"
+                android:textSize="@dimen/dimens_16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:layout_weight="1"
+                android:text="@string/linecost_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_16sp" />
+
+            <TextView
+                android:id="@+id/linecost_text_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:layout_weight="1"
+                android:hint="@string/have_notdata_hint"
+                android:textSize="@dimen/dimens_16sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_line"
+            android:background="@mipmap/line"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/btn_top_5dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/paymentpercent_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_16sp" />
+
+            <TextView
+                android:id="@+id/paymentpercent_text_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:layout_weight="1"
+                android:hint="@string/have_notdata_hint"
+                android:textSize="@dimen/dimens_16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:layout_weight="1"
+                android:text="@string/isadvance_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimens_16sp" />
+
+            <CheckBox
+                android:id="@+id/isadvance_text_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:layout_weight="1"
+                android:button="@drawable/checkbox_bj"
+                android:clickable="false" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

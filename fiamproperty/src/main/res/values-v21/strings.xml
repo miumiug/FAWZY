@@ -1,0 +1,7 @@
+<resources>
+    <string name="home_title">FiAM</string>
+    <string name="db_task_text">待办任务</string>
+
+    <!--加载提示-->
+    <string name="load_more_text">正在加载...</string>
+</resources>

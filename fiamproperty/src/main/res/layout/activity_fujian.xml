@@ -1,0 +1,115 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:foreground="?android:selectableItemBackground"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="@string/jkd_text"
+                android:textColor="#576FAE"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="文档号："
+                android:textColor="#929CA6"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/text_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#929CA6"
+                android:textSize="14dp"  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/btn_top_5dp"
+            android:padding="@dimen/btn_top_5dp">
+
+            <TextView
+                android:id="@+id/cudept_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="创建人："
+                android:textColor="#666B74"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/text_people"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:hint="@string/have_notdata_hint"
+                android:textColor="#666B74"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ks_linearLayout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/btn_top_5dp">
+
+            <TextView
+                android:layout_weight="7.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="创建时间："
+                android:textColor="#666B74"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/text_time"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_top_5dp"
+                android:hint="@string/have_notdata_hint"
+                android:text="该改改或过过过过"
+                android:textColor="#666B74"
+                android:textSize="15dp"
+                />
+
+            <ImageView
+                android:layout_weight="9.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_into"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
